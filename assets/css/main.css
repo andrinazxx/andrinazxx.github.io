@@ -3248,6 +3248,7 @@ input, select, textarea {
 				height: 100vh;
 			}
 
+
 		#wrapper.fade-in:before {
 			pointer-events: none;
 			-moz-transition: opacity 1s ease-in-out;

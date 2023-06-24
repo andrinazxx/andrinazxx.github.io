@@ -151,7 +151,7 @@ input, select, textarea {
 		font-family: "Merriweather", Georgia, serif;
 		font-weight: 300;
 		font-size: 1rem;
-		line-height: 2.375;
+		line-height: 1.8;
 	}
 
 	a {
@@ -183,7 +183,7 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-weight: 900;
-		line-height: 1.5;
+		line-height: 1.35;
 		letter-spacing: 0.075em;
 		text-transform: uppercase;
 		margin: 0 0 1rem 0;

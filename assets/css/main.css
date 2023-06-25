@@ -2204,15 +2204,16 @@ input, select, textarea {
 
 		}
 
-		input[type="submit"].disabled, input[type="submit"]:disabled,
+		input[type="submit"].enabled,
+		input[type="submit"]:enabled,
 		input[type="reset"].disabled,
 		input[type="reset"]:disabled,
 		input[type="button"].disabled,
 		input[type="button"]:disabled,
-		button.disabled,
-		button:disabled,
-		.button.disabled,
-		.button:disabled {
+		button.enabled,
+		button:enabled,
+		.button.enabled,
+		.button:enabled {
 			pointer-events: none;
 			opacity: 0.25;
 		}

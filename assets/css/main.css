@@ -322,6 +322,23 @@ input, select, textarea {
 		border-bottom-color: #eeeeee;
 	}
 
+/* Container */
+/* 
+	.container {
+		display: flex;
+		align-items: center;
+	}
+	  
+	.rescaled-image {
+		width: 100px; 
+		height: auto; 
+	}
+	
+	.text {
+		margin-left: 60px;
+	}
+*/
+
 /* Row */
 
 	.row {

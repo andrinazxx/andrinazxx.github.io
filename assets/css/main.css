@@ -342,6 +342,13 @@ input, select, textarea {
 		border-bottom-color: #eeeeee;
 	}
 
+/* Profile pic */
+	.profile-rescale {
+		width: 95%; 
+		height: auto; 
+		margin-left: 10%;
+	}
+
 /* Container */
 
 	.container {

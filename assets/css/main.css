@@ -344,7 +344,7 @@ input, select, textarea {
 
 /* Profile pic */
 	.profile-rescale {
-		width: 95%; 
+		width: 80%; 
 		height: auto; 
 		margin-left: 10%;
 	}

@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Andrina - Machine Learning</title>
+		<title>Andrina - Computing Arts & Music</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -28,8 +28,8 @@
 						<ul class="links">
 							<li><a href="index.html">Home</a></li>
 							<li><a href="experience.html">Experience</a></li>
-							<li class="active"><a href="ML.html">Machine Learning</a></li>
-							<li><a href="arts.html">Computing Arts & Music</a></li>
+							<li><a href="ML.html">Machine Learning</a></li>
+							<li class="active"><a href="arts.html">Computing Arts & Music</a></li>
 							<li><a href="photos.html">Photography</a></li>
 						</ul>
 						<ul class="icons">
@@ -44,61 +44,59 @@
 						<!-- Post -->
 						<section class="post">
 							<header class="major">
-								<h2>Seismology and MCMC</h2>
+								<h2>Unmute Your Arcade Game BGM</h2>
 								<p> <strong>Keywords: <br></strong>
-                                </p>
-								MATLAB, Markov Chain Monte Carlo, Data Visualization
+								</p>
+                                Pure Data, Design, UIUX, Computer Music, Random Variables
 							</header>
-						
-						
-						<!-- Image -->
-							<div class="row aln-center col-6" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-								<a href="ML-mcmc.html" class="image fit"><img src="images/ml2-mcmc.jpg" alt="" /></a>
-                                <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML" async></script>
-                                <p> In this project, I aimed to fit the <strong>seismology</strong> related data into a <strong>MCMC</strong> model, by using 
-                                    three parameters from the dataset - SeismoEx.mat. The three variables I used to construct the model are: x (location), s (standard deviation, a vector full of
-                                    ones) and y (the velocity data). I used the function inside SeisModel.m which implements the following model:
-                                    $$m(v, D, x_0) = \frac{v}{\pi}arctan\left(\frac{x - x_0}{D}\right)$$ <br />
-                                    The project was designed as individual work. 
-                                    During the first half of the project, I solved the problem set by myself in MATLAB 
-                                    and later gathered together with my group to give out a 30 minutes presentation and Q&A session to the entire class collaboratively.
-                                </p>
-							</div>
-
-							<ul class="actions special">
-                                <li><a href="showcases/XiaoxuanZhang-Seismology-MCMC.pdf" target="_blank" class="button">View Presentation Slides</a></li>
-                            </ul>
-
 						</section>
-						
-							
 
+
+                        <div>
+                            <p>Introduction</p>
+                            The “_Final_MUS171.pd” is my main PD(Pure Data) patch. 
+                            The drum machine and the wind instruments built up the whole arcade machine background music 
+                            generator. I imported an array with the layback drum beats sequence for my drum Kick, 
+                            Snare, and Hats. For my wind instruments, I used 3 sets of random number generators to create 
+                            random melody. <br>
+                            <br>
+                            Also, I added some colors to my horizontal and vertical radio to create some vibrance. 
+                            <br>
+                            <br>
+                        </div>
+
+                        <!-- Video -->
+                        <header class="major">
+                            <br>
+                            <iframe width="1000" height="660" src="https://www.youtube.com/embed/L7dY9JRv98o" frameborder="0" allowfullscreen></iframe>
+                            <br>
+                            <br>
+                            <br>
+                        </header>
+
+
+						
+						
 						<div class="box alt">
 							<div class="row gtr-50 gtr-uniform">
-								<div class="col-6" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-									<a href="ML-musGenre.html" class="image fit"><img src="images/ml1-musGenre.jpg" alt="" />
-									<strong>Music Genre Classification implementing kNN, SVM, CNN and RNN</strong></a>
-								</div>
-                                <div class="col-6" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-                                    <a href="ML.html" class="image fit"><img src="images/ml-return.jpg" alt="" /></a>
-                                </div>
+								<div class="col-6"><a href="index.html" class="image fit"><img src="images/arts-portfolio-home.jpg" alt="" /><strong>2023, Front-End Web Design</strong></a></div>
+								<div class="col-6"><a href="arts-crowd.html" class="image fit"><img src="images/arts-crowd.jpg" alt="" /><strong>2023, Experimental music: Call from the Crowd</strong></a></div>
 								<!-- Break -->
-                                <div class="col-6" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-                                    <a href="ML.html" class="image fit"><img src="images/tnt.jpg" alt="" />
-									<strong>Machine Learning team member in Prosthetics Team</strong></a>
-                                </div>
-                                <div class="col-6" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-									<a href="ML-earthqk.html" class="image fit"><img src="images/ml3-earthqk.jpg" alt="" />
-									<strong>Neural Networks and SVR implementation for Earthquake Prediction</strong></a>
-								</div>
+								<div class="col-6"><a href="arts-andromeda.html" class="image fit"><img src="images/arts-andromeda.jpg" alt="" /><strong>2023, The broken dream in the Andromeda Galaxy</strong></a></div>
+								<div class="col-6"><a href="arts-lion.html" class="image fit"><img src="images/arts-lion.jpg" alt="" /><strong>2022, 4K 60fps ASCII video rendering on RaspberryPi</strong></a></div>
+								<!-- Break -->
+								<div class="col-6"><a href="arts-seasons.html" class="image fit"><img src="images/arts-seasons-home.jpg" alt="" /><strong>2022, SEASONS GLITCH on RaspberryPi</strong></a></div>
+								<div class="col-6"><a href="arts-polyphony.html" class="image fit"><img src="images/arts-polyphony.jpg" alt="" /><strong>2022, Polyphony Synth Panel Design Interface in Pure Data</strong></a></div>
 								<!-- Break -->
 								<div class="col-6" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-									<a href="ML-outage.html" class="image fit"><img src="images/ml4-outage.jpg" alt="" />
-									<strong>Data Analysis on possible relationship between Outage Duration Time in the U.S. and Potential Factors</strong></a>
+                                    <a href="arts.html" class="image fit"><img src="images/arts-return.jpg" alt="" /></a>
 								</div>
-								<!-- Break -->
+
 							</div>
 						</div>
+
+									
+								
 					</div>
 
 				<!-- Footer -->

@@ -351,6 +351,12 @@ input, select, textarea {
 		border-bottom-color: #eeeeee;
 	}
 
+/* rescale pic */
+.main-rescale {
+	width: 100%; 
+	height: auto; 
+}
+
 /* Profile pic */
 	.profile-rescale {
 		width: 90%; 

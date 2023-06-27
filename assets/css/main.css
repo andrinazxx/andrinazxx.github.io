@@ -198,7 +198,7 @@ input, select, textarea {
 		margin: 0 0 1rem 0;
 	}
 
-	h3, p {
+	h3{
 		font-family: "Beathy Regular", "Merriweather", Georgia, serif;
 		font-weight: 900;
 		line-height: 1.35;

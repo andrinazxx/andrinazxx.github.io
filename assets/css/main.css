@@ -113,6 +113,15 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+/* Fonts */
+
+	@font-face {
+		font-family: 'Beathy Regular';
+		font-style: normal;
+		font-weight: normal;
+		src: local('Beathy Regular'), url('path/to/fonts/beathy-webfont/Beathy.woff') format('woff');
+    }
+  
 /* Type */
 
 	html {
@@ -148,7 +157,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Merriweather", Georgia, serif;
+		font-family: "Beathy Regular", "Merriweather", Georgia, serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.8;
@@ -189,8 +198,8 @@ input, select, textarea {
 		margin: 0 0 1rem 0;
 	}
 
-	h3 {
-		font-family: "Merriweather", Georgia, serif;
+	h3, p {
+		font-family: "Beathy Regular", "Merriweather", Georgia, serif;
 		font-weight: 900;
 		line-height: 1.35;
 		letter-spacing: 0.075em;
@@ -348,6 +357,12 @@ input, select, textarea {
 		height: auto; 
 		margin-left: 15%;
 	}
+
+/* Indented */
+	.indented {
+		padding-left: 20px; /* Adjust the value as per your desired indentation */
+	}
+	
 
 /* Container */
 
@@ -2452,7 +2467,7 @@ input, select, textarea {
 			display: inline-block;
 			font-size: 1rem;
 			letter-spacing: 0;
-			font-family: "Merriweather", Georgia, serif;
+			font-family: "Beathy Regular", "Merriweather", Georgia, serif;
 			text-transform: none;
 			font-weight: 300;
 			padding-left: 2.8rem;

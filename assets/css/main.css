@@ -366,9 +366,9 @@ input, select, textarea {
 
 /* Profile pic */
 	.profile-rescale {
-		width: 90%; 
+		width: 92%; 
 		height: auto; 
-		margin-left: 15%;
+		margin-left: 5%;
 	}
 
 /* Indented */
@@ -3677,6 +3677,9 @@ input, select, textarea {
 
 		}
 
+
+		
+
 /* Nav */
 
 	#nav {
@@ -3826,6 +3829,243 @@ input, select, textarea {
 			}
 
 		}
+
+/* Monologue */
+
+#monologue {
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	background-color: rgba(225, 225, 225, 0.2);
+	cursor: default;
+	position: relative;
+	margin: 0 auto;
+	width: calc(100% - 4rem);
+	max-width: 72rem;
+	z-index: 2;
+}
+
+	#monologue input, #monologue select, #monologue textarea {
+		color: #ffffff;
+	}
+
+	#monologue a, #monologue p {
+		color: #f7f7f7;
+		border-bottom-color: rgba(113, 121, 129, 0.5);
+	}
+
+		#monologue a:hover {
+			border-bottom-color: transparent;
+			color: #18bfef !important;
+		}
+
+	#monologue strong, #monologue b {
+		color: #ffffff;
+	}
+
+	#monologue h1, #monologue h2, #monologue h3, #monologue h4, #monologue h5, #monologue h6 {
+		color: #ffffff;
+	}
+
+	#monologue hr {
+		border-bottom-color: #e2e2e2;
+	}
+
+	#monologue .box {
+		border-color: #e2e2e2;
+	}
+
+	#monologue label {
+		color: #717981;
+	}
+
+
+	#monologue ul.divided li {
+		border-top-color: #e2e2e2;
+	}
+
+	#monologue ul.icons li a.icon:hover:before {
+		color: #18bfef;
+	}
+
+	#monologue ul.icons.alt li .icon:before {
+		box-shadow: inset 0 0 0 2px #e2e2e2;
+	}
+
+	#monologue ul.icons.alt li a.icon:hover:before {
+		box-shadow: inset 0 0 0 2px #18bfef;
+	}
+
+
+	#monologue .pagination a, #monologue .pagination span {
+		border-color: #e2e2e2;
+	}
+
+	#monologue .pagination a {
+		color: #717981 !important;
+	}
+
+		#monologue .pagination a:hover {
+			color: #18bfef !important;
+			border-color: #18bfef;
+			z-index: 1;
+		}
+
+			#monologue .pagination a:hover + a,
+			#monologue .pagination a:hover + span {
+				border-left-color: #18bfef;
+			}
+
+		#monologue .pagination a.active {
+			background-color: #e2e2e2;
+		}
+
+	#monologue .pagination span {
+		color: #e2e2e2;
+	}
+
+	#monologue > section {
+		-moz-flex-basis: 50%;
+		-webkit-flex-basis: 50%;
+		-ms-flex-basis: 50%;
+		flex-basis: 50%;
+		-moz-flex-grow: 1;
+		-webkit-flex-grow: 1;
+		-ms-flex-grow: 1;
+		flex-grow: 1;
+		-moz-flex-shrink: 1;
+		-webkit-flex-shrink: 1;
+		-ms-flex-shrink: 1;
+		flex-shrink: 1;
+		padding: 4rem 4rem 2rem 4rem ;
+		border-left: solid 2px #e2e2e2;
+	}
+
+		#monologue > section:first-child {
+			border-left: 0;
+		}
+
+		#monologue > section.split {
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			-moz-flex-direction: column;
+			-webkit-flex-direction: column;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			padding: 0;
+		}
+
+			#monologue > section.split > section {
+				padding: 3rem 4rem 1rem 4rem ;
+				border-top: solid 2px #e2e2e2;
+			}
+
+				#monologue > section.split > section:first-child {
+					padding: 5rem 4rem 1rem 4rem ;
+					border-top: 0;
+				}
+
+				#monologue > section.split > section:last-child {
+					padding: 3rem 4rem 3rem 4rem ;
+				}
+
+				
+	#monologue form label,
+	#monologue h3,
+	#monologue p {
+		font-size: 0.98rem;
+	}
+
+	@media screen and (max-width: 980px) {
+
+		#monologue {
+			display: block;
+		}
+
+			#monologue > section {
+				border-top: solid 2px #e2e2e2;
+			}
+
+				#monologue > section:first-child {
+					border-top: 0;
+				}
+
+				#monologue > section.split > section {
+					padding: 4rem 4rem 2rem 4rem ;
+				}
+
+					#monologue > section.split > section:first-child {
+						padding: 4rem 4rem 2rem 4rem ;
+					}
+
+					#monologue > section.split > section:last-child {
+						padding: 4rem 4rem 2rem 4rem ;
+					}
+
+				#monologue > section.split.contact > section {
+					padding: 4rem;
+				}
+
+					#monologue > section.split.contact > section:first-child {
+						padding: 4rem;
+					}
+
+					#monologue > section.split.contact > section:last-child {
+						padding: 4rem;
+					}
+
+			#monologue form label,
+			#monologue h3,
+			#monologue p {
+				font-size: 0.98rem;
+			}
+			
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		#monologue > section {
+			padding: 2rem 2rem 0.1rem 2rem ;
+		}
+
+			#monologue > section.split > section {
+				padding: 2rem 2rem 0.1rem 2rem ;
+			}
+
+				#monologue > section.split > section:first-child {
+					padding: 2rem 2rem 0.1rem 2rem ;
+				}
+
+				#monologue > section.split > section:last-child {
+					padding: 2rem 2rem 0.1rem 2rem ;
+				}
+
+			#monologue > section.split.contact > section {
+				padding: 2rem;
+			}
+
+				#monologue > section.split.contact > section:first-child {
+					padding: 2rem;
+				}
+
+				#monologue > section.split.contact > section:last-child {
+					padding: 2rem;
+				}
+
+	}
+
+	@media screen and (max-width: 480px) {
+
+		#monologue {
+			width: 100%;
+		}
+
+	}
+
 
 /* Main */
 
@@ -4413,6 +4653,7 @@ input, select, textarea {
 				#footer p {
 					font-size: 0.9rem;
 				}
+				
 
 		}
 

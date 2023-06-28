@@ -351,6 +351,13 @@ input, select, textarea {
 		border-bottom-color: #eeeeee;
 	}
 
+
+/* signature rescale */
+.sign-rescale {
+	width: 80%; 
+	height: auto; 
+}
+
 /* rescale pic */
 .main-rescale {
 	width: 100%; 

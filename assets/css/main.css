@@ -2789,7 +2789,7 @@ input, select, textarea {
 		}
 
 			ul.actions.stacked li {
-				padding: 1.3rem 0 0 0;
+				padding: 1rem 0 0 0;
 			}
 
 				ul.actions.stacked li:first-child {
@@ -3852,7 +3852,7 @@ input, select, textarea {
 
 	#monologue a, #monologue p {
 		color: #f7f7f7;
-		border-bottom-color: rgba(113, 121, 129, 0.5);
+		border-bottom-color: rgba(225, 225, 225, 0.5);
 	}
 
 		#monologue a:hover {
@@ -3874,10 +3874,6 @@ input, select, textarea {
 
 	#monologue .box {
 		border-color: #e2e2e2;
-	}
-
-	#monologue label {
-		color: #717981;
 	}
 
 

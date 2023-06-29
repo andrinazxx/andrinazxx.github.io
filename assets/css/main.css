@@ -4016,8 +4016,6 @@ input, select, textarea {
 			#monologue p {
 				font-size: 0.98rem;
 			}
-			
-
 	}
 
 	@media screen and (max-width: 736px) {
@@ -4049,15 +4047,12 @@ input, select, textarea {
 				#monologue > section.split.contact > section:last-child {
 					padding: 2rem;
 				}
-
 	}
 
 	@media screen and (max-width: 480px) {
-
 		#monologue {
 			width: 100%;
 		}
-
 	}
 
 

@@ -3873,7 +3873,7 @@ input, select, textarea {
 	}
 
 	#monologue .box {
-		border-color: #e2e2e2;
+		border-color: transparent;
 	}
 
 
@@ -3935,7 +3935,6 @@ input, select, textarea {
 		-ms-flex-shrink: 1;
 		flex-shrink: 1;
 		padding: 4rem 4rem 2rem 4rem ;
-		border-left: solid 2px #e2e2e2;
 	}
 
 		#monologue > section:first-child {

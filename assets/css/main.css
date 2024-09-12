@@ -637,6 +637,23 @@ input, select, textarea {
 					padding-top: 3rem;
 				}
 
+		.row.gtr-300 {
+			margin-top: 0;
+			margin-left: -3.5rem;
+		}
+
+			.row.gtr-300 > * {
+				padding: 0 0 0 3.5rem;
+			}
+
+			.row.gtr-300.gtr-uniform {
+				margin-top: -3.5rem;
+			}
+
+				.row.gtr-300.gtr-uniform > * {
+					padding-top: 3.5rem;
+				}
+
 		@media screen and (max-width: 1680px) {
 
 			.row {
@@ -1266,6 +1283,12 @@ input, select, textarea {
 
 				.row > .off-12-medium {
 					margin-left: 100%;
+				}
+				
+				.row > .col-6, .off-6 {
+					display: flex;
+					justify-content: center; /* Centers content within the column */
+					align-items: center;
 				}
 
 				.row.gtr-0 {

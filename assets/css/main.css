@@ -621,6 +621,7 @@ input, select, textarea {
 				}
 
 		.row.gtr-200 {
+			justify-content: center;
 			margin-top: 0;
 			margin-left: -3rem;
 		}
